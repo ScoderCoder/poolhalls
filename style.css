@@ -150,3 +150,24 @@ img {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
+
+.signup { 
+  margin: 0 auto; 
+  padding: 2em; 
+  border: 1px solid #ccc; 
+}
+
+.statuses label { 
+  display: block;
+  margin: 10px 0;
+}
+
+.post { 
+  display: none; 
+  padding: 20px; 
+}
+
+#non-indigenouss:checked ~ .true { display: block; }
+#non-indigenouss:checked ~ .false { display: none; }
+#indigenouss:checked ~ .false { display: block; }
+#indigenouss:checked ~ .true { display: none; }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sign Up | Retro Pool Hall</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1><a href="index.html">Retro Pool Hall</a></h1>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="tos.html">Terms</a>
+        <a href="https://github.com/ScoderCoder/poolhalls">Source Code</a>
+      </div>
+    </header>
+
+    <div class="bodyc">
+      <h3>Sign Up - Membership</h3>
+      <p>Welcome to Retro Hall! We recommend you sign up with us for the best experience at our tables.</p>
+
+      <div class="signup">
+        <form id="signup-form" autocomplete="off">
+          <label for="name">Name (First + Last):</label>
+          <input type="text" id="name" name="name" placeholder="Sougato Chakrobortty" required><br><br>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="1chakrobosou@hdsb.ca" required><br><br>
+
+          <p><strong>Indigenous Status:</strong></p>
+          <input type="radio" name="status" value="non-indigenous" id="non-indigenouss"> 
+          <label>Non-Indigenous</label>
+          <input type="radio" name="status" value="indigenous" id="indigenouss">
+          <label>Indigenous/First Nations</label>
+          <label><input type="radio" name="status" value="other" id="otherr">Other (Specify)</label>
+
+          <div class="post true">
+            <h3>Sign Up Complete!</h3>
+            <p>Welcome to the Retro Hall! You are able to access our facilities freely.<br>Don't forget to have fun!</p>
+
+            <div class="fact">
+              <h3>The Facts</h3>
+              <p>At this point in time, non-indigenous Canadians did not face any restrictions regarding leisure activities. Your entrance to the hall is a privilege.</p>
+            </div>
+          </div>
+
+          <div class="post false">
+            <h3>Sign Up Invalid!</h3>
+            <p>Our systems have detected your indigenous status conflicting with our policy and federal law. Please read the <a href="tos.html">terms of service</a> for more information. If you believe this was a mistake, please contact staff.</p>
+
+            <div class="fact">
+              <h3>The Facts</h3>
+              <p>At this point in time, indigneous Canadians may have been stopped at this stage. Here's why:</p>
+
+              <ul>
+                <li>If a court or an Indian agent determines that an indigenous person was "wasting time" at a pool room, the individual may have been banned for up to 1 year.</li>
+                <li>This rule specifically targetted indigenous people, as all other ethnicities and cultures were allowed in regardless of intentions.</li>
+                <li>Why? The government believed indigenous people should be focused on "productive" tasks such as jobs leading to economic growth, rather than amusement.</li>
+                <li>Simply put, leisure activies such as pool, dance halls or any other licensed area was considred acceptable for everyone else, except indigenous people.</li>
+              </ul>
+            </div>
+          </div>
+
+          <br><br>
+          <button type="button">Submit Application</button>
+        </form>
+      </div>
+
+      <h3>External Sources (MLA 8)</h3>
+      <!-- USE FOR SOURCES -->
+      <p>Joseph, Bob. “21 Things™ You May Not Have Known About the Indian Act.” Indigenous Corporate <br>&emsp;Training Inc., 2 June 2015,<br>&emsp;https://www.ictinc.ca/blog/21-things-you-may-not-have-known-about-the-indian-act.<br>&emsp;Accessed 23 February 2026.</p>
+      <p>Leslie, John F. “Indian Act.” Wikipedia, https://en.wikipedia.org/wiki/Indian_Act. Accessed 23<br>&emsp;February 2026.</p>
+    </div>
+
+    <div class="footer">
+      <p>(c) 2026 Sougato Chakrobortty<br>This website is licensed under <a href="./LICENSE">MIT</a>.</p>
+    </div>
+  </body>
+
+</html>
