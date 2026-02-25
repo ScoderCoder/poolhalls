@@ -171,3 +171,7 @@ img {
 #non-indigenouss:checked ~ .false { display: none; }
 #indigenouss:checked ~ .false { display: block; }
 #indigenouss:checked ~ .true { display: none; }
+
+.tosh {
+    text-align: center;
+}
